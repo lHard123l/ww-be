@@ -102,7 +102,7 @@ DATABASES = {
         'NAME': 'wieczorwalkDB',
         'USER':'wieczorwali1',
         'PASSWORD':'Admin123',
-        'HOST':'wieczorwalk1.database.windows.net',
+        'HOST':'localhost',
         'PORT':1433
     }
 }
