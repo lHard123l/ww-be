@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'WieczorWalk3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'wieczorwalkDB',
+        'NAME': 'wieczorwalkdb',
         'USER':'wieczorwalk1',
         'PASSWORD':'Admin123',
         'HOST':'localhost',
