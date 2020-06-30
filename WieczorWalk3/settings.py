@@ -100,7 +100,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'wieczorwalkDB',
-        'USER':'wieczorwali1',
+        'USER':'wieczorwalk1',
         'PASSWORD':'Admin123',
         'HOST':'localhost',
         'PORT':1433
