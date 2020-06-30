@@ -19,8 +19,8 @@ from django.urls import path, include
 from Accounts.views.Profile import Profile as ProfileView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('user/', include('rest_auth.urls')),
-    path('user/registration/', include('rest_auth.registration.urls')),
-    path('user/profile/', ProfileView.as_view())
+    path('api/admin/', admin.site.urls),
+    path('api/user/', include('rest_auth.urls')),
+    path('api/user/registration/', include('rest_auth.registration.urls')),
+    path('api/user/profile/', ProfileView.as_view())
 ]
